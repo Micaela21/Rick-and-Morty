@@ -1,0 +1,18 @@
+.containerA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: 100px auto auto auto;
+  width: 650px;
+  height: 400px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/522/548/990/rick-and-morty-rick-sanchez-tv-adult-swim-wallpaper-preview.jpg");
+}
+
+.text {
+  width: 400px;
+  margin: auto 20px auto 20px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}

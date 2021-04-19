@@ -1,0 +1,31 @@
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+
+.name {
+  display: none;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.containerImg:hover > .name {
+  display: block;
+  transition: all 0.5s;
+  top: 30%;
+  text-align: center;
+  position: absolute;
+}
+
+.containerImg:hover > .img {
+  filter: grayscale(80%);
+}

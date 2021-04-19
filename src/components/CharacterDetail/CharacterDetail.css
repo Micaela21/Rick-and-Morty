@@ -1,0 +1,45 @@
+.containerD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+}
+
+.titleh1 {
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border-radius: 5px;
+}
+
+.imgDG {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
+.imgDR {
+  border: 10px solid red;
+  border-radius: 5px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: stretch;
+}
+
+.data {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}

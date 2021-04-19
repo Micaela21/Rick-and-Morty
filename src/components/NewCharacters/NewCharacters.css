@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.newButton {
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+}

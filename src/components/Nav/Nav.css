@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.link {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.conlink .link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.conlink .link:hover {
+  background-color: #111;
+}

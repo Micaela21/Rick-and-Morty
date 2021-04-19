@@ -1,0 +1,26 @@
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: transparent;
+  transition: all 0.5s;
+  margin: 50px;
+  padding: 20px;
+}
+
+.imgB {
+  width: 70%;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: #333;
+  transition: all 0.5s;
+}
+
+.imgB:hover {
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  transition: all 0.10s;
+}
