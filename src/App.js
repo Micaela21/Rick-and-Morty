@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <div className={"app"}>
         <Route path="/" component={Nav} />
-        <Route path="/rick-and-morty-app" component={Image} />
+        <Route path="/rick-and-morty" component={Image} />
         <Route path="/home" component={Home} />
         <Route path="/newCharacters" component={NewCharacters} />
         <Route path="/character/:id" component={CharacterDetail} />
