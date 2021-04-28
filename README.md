@@ -1,4 +1,4 @@
-# Rick and Morty app
+# [Rick and Morty app](https://micaela21.github.io/rick-and-morty/)
 
 This project was create using an API of [Rick and Morty](https://rickandmortyapi.com/)
 
